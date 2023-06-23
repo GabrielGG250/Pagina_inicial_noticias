@@ -2,8 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   
   <title>Frontend Mentor | News homepage</title>
@@ -14,44 +13,74 @@
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
+
 <body>
-
-  Home
-  New
-  Popular
-  Trending
-  Categories
-
-  The Bright Future of Web 3.0?
-
-  We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
-  But is it really fulfilling its promise?
-
-  Read more
-
-  New 
-
-  Hydrogen VS Electric Cars
-  Will hydrogen-fueled cars ever catch up to EVs?
-
-  The Downsides of AI Artistry
-  What are the possible adverse effects of on-demand AI image generation?
-
-  Is VC Funding Drying Up?
-  Private funding by VC firms is down 50% YOY. We take a look at what that means.
-
-  01
-  Reviving Retro PCs
-  What happens when old PCs are given modern upgrades?
-
-  02
-  Top 10 Laptops of 2022
-  Our best picks for various needs and budgets.
-
-  03
-  The Growth of Gaming
-  How the pandemic has sparked fresh opportunities.
   
+  <header id="header">
+    <nav id="menu">
+        <ul>
+          <li class="item-menu">Home</li>
+          <li class="item-menu">New</li>
+          <li class="item-menu">Popular</li>
+          <li class="item-menu">Trending</li>
+          <li class="item-menu">Categories</li>
+        </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <section id="container-titulo-principal">
+      <h1 id="titulo-principal">The Bright Future of Web 3.0?</h1>
+    </section>
+  
+    <section id="container-descricao-principal">
+      <p id="descicao-principal">
+        We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people.
+        But is it really fulfilling its promise?
+      </p>
+
+      <buttom id="botao">Read more</buttom>
+    </section>
+
+    <section id="conteudo-lateral">
+      <h2 id="titulo-secundario">New</h2>
+      <section class="noticia-secundaria">
+        <h3 class="titulo-noticia-secundaria">Hydrogen VS Electric Cars</h3>
+        <p class="paragrafo-noticia-secundaria">Will hydrogen-fueled cars ever catch up to EVs?</p>
+      </section>
+    
+      <section class="noticia-secundaria">
+        <h3 class="titulo-noticia-secundaria">The Downsides of AI Artistry</h3>
+        <p class="paragrafo-noticia-secundaria">What are the possible adverse effects of on-demand AI image generation?</p>
+      </section>
+    
+      <section class="noticia-secundaria">
+        <h3 class="titulo-noticia-secundaria">Is VC Funding Drying Up?</h3>
+        <p class="paragrafo-noticia-secundaria">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+      </section>
+    </section>
+
+    <section id="outras-noticias">
+      <section class="container-outra-noticia">
+        <div class="numero-noticia">01</div>
+        <h3 class="titulo-outra-noticia">Reviving Retro PCs</h3>
+        <p class="paragrafo-outra-noticia">What happens when old PCs are given modern upgrades?</p>
+      </section>
+      <section class="container-outra-noticia">
+        <div class="numero-noticia">02</div>
+        <h3 class="titulo-outra-noticia">Top 10 Laptops of 2022</h3>
+        <p class="paragrafo-outra-noticia">Our best picks for various needs and budgets.</p>
+      </section>
+      <section class="container-outra-noticia">
+        <div class="numero-noticia">03</div>
+        <h3 class="titulo-outra-noticia">The Growth of Gaming</h3>
+        <p class="paragrafo-outra-noticia">How the pandemic has sparked fresh opportunities.</p>
+      </section>
+    </section>
+    
+  </main>
+
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
