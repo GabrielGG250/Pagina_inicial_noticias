@@ -14,10 +14,60 @@
     --laranja_suave: hsl(35, 77%, 62%);
     --vermelho_suave: hsl(5, 85%, 63%);
     --branco: hsl(36, 100%, 99%);
-    --azul_acinzentado: hsl(233, 8%, 79%);
+    --azul_acinzentado: hsl(231, 3%, 60%);
     --azul_acinzentado_escuro: hsl(236, 13%, 42%);
     --azul_escuro: hsl(240, 100%, 5%);
 
     /* Fontes */
     --fonte: 'Inter', sans-serif;
+}
+
+body {
+    padding: 20px;
+}
+
+/* Header */
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+#icon-menu {
+    height: 50%;
+}
+
+#menu {
+    display: none;
+}
+
+/* Main */
+
+#imagem-principal {
+    width: 90vw;
+    padding: 10px 0px;
+}
+
+#container-titulo-principal {
+    padding: 10px 0px;
+}
+
+#titulo-principal {
+    font-family: var(--fonte);
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 1.1;
+}
+
+#container-descricao-principal {
+    padding: 10px 0px;
+}
+
+#descicao-principal {
+    font-family: var(--fonte);
+    line-height: 1.5;
+    padding-bottom: 20px;
+    color: var(--azul_acinzentado);
 }
