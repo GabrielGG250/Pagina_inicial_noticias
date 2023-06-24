@@ -3,6 +3,7 @@
 * {
     padding: 0px;
     margin: 0px;
+    font-family: var(--fonte);
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
@@ -37,6 +38,7 @@ body {
 
 #icon-menu {
     height: 50%;
+    cursor: pointer;
 }
 
 #menu {
@@ -45,9 +47,15 @@ body {
 
 /* Main */
 
+#main {
+    display: flex;
+    flex-direction: column;
+}
+
 #imagem-principal {
     width: 90vw;
     padding: 10px 0px;
+    align-self: center;
 }
 
 #container-titulo-principal {
@@ -55,7 +63,6 @@ body {
 }
 
 #titulo-principal {
-    font-family: var(--fonte);
     font-weight: 800;
     font-size: 40px;
     line-height: 1.1;
@@ -66,8 +73,95 @@ body {
 }
 
 #descicao-principal {
-    font-family: var(--fonte);
     line-height: 1.5;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
     color: var(--azul_acinzentado);
+}
+
+#botao {
+    display: inline-block;
+    background-color: var(--vermelho_suave);
+    padding: 15px 20px;
+    color: white;
+    font-size: 0.8em;
+    letter-spacing: 2.5px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+#botao:hover {
+    background-color: var(--azul_escuro);
+}
+
+#conteudo-lateral {
+    background-color: var(--azul_escuro);
+    padding: 20px 20px 0px 20px;
+    margin: 40px 0px;
+}
+
+#titulo-secundario {
+    color: var(--laranja_suave);
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.noticia-secundaria {
+    line-height: 2.0;
+    margin: 30px 0px;
+}
+
+.titulo-noticia-secundaria {
+    color: var(--branco);
+}
+
+.titulo-noticia-secundaria:hover {
+    color: var(--laranja_suave);
+    cursor: pointer;
+}
+
+.paragrafo-noticia-secundaria {
+    color: var(--azul_acinzentado);
+}
+
+.linha {
+    width: 100%;
+    border: 1px solid var(--azul_acinzentado);
+}
+
+.container-outra-noticia {
+    display: flex;
+    justify-content: center;
+    width: 80vw;
+    padding: 20px 0px;
+}
+
+.imagem-outra-noticia {
+    height: 150px;
+}
+
+.outra-noticia-escrita {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2.5px;
+    padding: 0px 10px;
+}
+
+.numero-noticia{
+    color: var(--azul_acinzentado);
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.titulo-outra-noticia{
+    font-weight: 800;
+}
+
+.titulo-outra-noticia:hover {
+    color: var(--vermelho_suave);
+    cursor: pointer;
+}
+
+.paragrafo-outra-noticia{
+    color: var(--azul_acinzentado);
+    font-size: 0.9em;
 }
