@@ -4,6 +4,7 @@
     padding: 0px;
     margin: 0px;
     font-family: var(--fonte);
+    list-style: none
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
@@ -52,10 +53,14 @@ body {
     flex-direction: column;
 }
 
-#imagem-principal {
+#imagem-principal-mobile {
     width: 90vw;
     padding: 10px 0px;
     align-self: center;
+}
+
+#imagem-principal-desktop {
+    display: none;
 }
 
 #container-titulo-principal {
@@ -87,6 +92,7 @@ body {
     letter-spacing: 2.5px;
     font-weight: 700;
     cursor: pointer;
+    width: 101px;
 }
 
 #botao:hover {
@@ -130,7 +136,7 @@ body {
 
 .container-outra-noticia {
     display: flex;
-    justify-content: center;
+    justify-content: start;
     width: 80vw;
     padding: 20px 0px;
 }
