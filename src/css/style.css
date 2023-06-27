@@ -46,6 +46,44 @@ body {
     display: none;
 }
 
+#menu-mobile {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 60vw;
+    background-color: white;
+}
+
+#fechar-menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+#lista-menu-mobile {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    margin-top: 120px;
+}
+
+.item-menu-mobile {
+    padding: 10px 10px;
+}
+
+.item-menu-mobile:hover {
+    color: var(--laranja_suave);
+    cursor: pointer;
+}
+
+.hide {
+    display: none;
+}
+
 /* Main */
 
 #main {
